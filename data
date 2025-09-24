@@ -1,0 +1,7 @@
+!pip install gradio
+!gdown --id 14oQqOOdsig4DzXJPpTYPYNdWnoTrRzDD #chicken.zip
+!gdown --id 1sz2PZhN0zS01KK4AcuvgMH7_S7I4DWVT #pork.zip
+!gdown --id 1G86Z5Hp1j6bt-n9GsGbKd5rNA1ou0AAg #red_rice.zip
+!gdown --id 1pHqbL-THXJ8q21ilZY90-ix7aRS2TCIQ #onlypork.zip
+!gdown --id 1WZgLKwDKP6llYExbyzB5kbsplAiAYhL0 #onlyred.zip
+!gdown --id 1vCntyvrXpPP0oZcRR711b9Lr-zOGeZzM #onlychicken.zip
