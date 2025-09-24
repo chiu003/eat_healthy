@@ -1,0 +1,30 @@
+# ✅ 加在這裡！
+food_health_score = {
+    "雞腿便當": 4,
+    "排骨便當": 3,
+    "紅糟肉便當": 3,
+    "雞腿": 2,
+    "排骨": 2,
+    "紅糟肉": 1
+}
+
+def get_health_rating(food_label):
+    score = food_health_score.get(food_label, 3)
+
+    if score >= 4:
+        return f"🌟 健康評分：{score}/5（這是一份營養均衡的便當，繼續保持！）"
+    elif score == 3:
+        return f"🌟 健康評分：{score}/5（還不錯，但建議搭配更多蔬菜 🥬）"
+    elif score == 2:
+        return f"🌟 健康評分：{score}/5（肉類偏多，建議搭配菜飯會更均衡）"
+    else:
+        return f"🌟 健康評分：{score}/5（高油少纖維，建議少量食用）"
+
+food_allergen_warning = {
+    "紅糟肉便當": "⚠️ 含酒紅糟，避免酒精過敏者或宗教禁忌",
+    "排骨便當": "⚠️ 炸製品，建議高血脂者酌量食用",
+    "雞腿便當": "⚠️ 去骨雞腿多為醃漬製品，建議鈉攝取控制者注意"
+}
+
+def get_allergen_warning(food_label):
+    return food_allergen_warning.get(food_label, "✅ 無明顯過敏風險")
